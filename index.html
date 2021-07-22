@@ -1,0 +1,30 @@
+<html>
+
+<head>
+  <title> OpenTok Getting Started </title>
+  <link href="css/app.css" rel="stylesheet" type="text/css">
+  <script src="https://static.opentok.com/v2/js/opentok.min.js"></script>
+</head>
+
+<body>
+
+  <div id="videos">
+    <div id="subscriber"></div>
+    <div id="publisher"></div>
+  </div>
+
+  API Key: <input id="apiKey-id" type="text" />
+  <br />
+  Session Id: <input id="session-id" type="text" />
+  <br />
+  Token: <input id="token-id" type="text" />
+  <br />
+
+
+  <script type="text/javascript" src="js/app.js"></script>
+
+  <button onclick="initializeSession()">Join</button>
+  <button onclick="getStats()">Console Stats</button>
+</body>
+
+</html>
